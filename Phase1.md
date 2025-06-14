@@ -79,6 +79,7 @@ bq ls --dataset_id=iris_dataset
 
 <pre><code>
 bq query --use_legacy_sql=false 'SELECT * FROM `<Project ID>.iris_dataset.iris_table` LIMIT 10'
+bq query --use_legacy_sql=false 'SELECT * FROM `<Project ID>.iris_dataset.iris_blank_table` LIMIT 10'
 </code></pre>
 
 ![Table_iris画面](picture/Phase1-3-2.png)
