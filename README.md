@@ -32,16 +32,16 @@ BigQuery 上に取り込み分析できる様にする。
 本環境構築は以下のフェーズに分けて進める：
 
 1. **Cloud Storage と BigQuery Dataset をデプロイし Cloud Storage に格納した csv を元にテーブルを作成できること**
-2. **テーブル上のデータを元にデータ分析が出来ること**
-3. **Null データを含むテーブルを SQL にて加工したデータマートを作成しデータ分析が出来ること**
-4. **Null データを含むデータを ETL 処理後にテーブルを作成し、データ分析が出来ること**
+2. **テーブル上のデータを元にモデル作成が出来ること**
+3. **Null データを含むテーブルを SQL にて加工したデータマートを作成しモデル作成が出来ること**
+4. **Null データを含むデータを ETL 処理後にテーブルを作成し、モデル作成が出来ること**
 
 ---
 
 各フェーズの詳細手順や設定内容については、以降のセクションに記載。
 
-[Phase 1 - BigQuery の Dataset 上でテーブルを作成する](https://github.com/Karasu1t/storage-bq-etl-pipeline/blob/main/Phase1.md)
-[Phase 2 - テーブル上のデータを元にデータ分析](https://github.com/Karasu1t/storage-bq-etl-pipeline/blob/main/Phase2.md)
+[Phase 1 - BigQuery の Dataset 上でテーブルを作成する](https://github.com/Karasu1t/storage-bq-etl-pipeline/blob/main/Phase1.md)  
+[Phase 2 - テーブル上のデータを元にモデル作成](https://github.com/Karasu1t/storage-bq-etl-pipeline/blob/main/Phase2.md)
 
 ## 注意事項
 
