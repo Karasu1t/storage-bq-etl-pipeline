@@ -5,3 +5,9 @@ module "storage" {
   project     = local.project
   environment = local.environment
 }
+
+# bq
+module "bq" {
+  source      = "../../modules/bq"
+  email       = local.email
+}
