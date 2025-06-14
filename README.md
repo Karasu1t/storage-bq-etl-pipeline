@@ -41,6 +41,7 @@ BigQuery 上に取り込み分析できる様にする。
 各フェーズの詳細手順や設定内容については、以降のセクションに記載。
 
 [Phase 1 - BigQuery の Dataset 上でテーブルを作成する](https://github.com/Karasu1t/storage-bq-etl-pipeline/blob/main/Phase1.md)
+[Phase 2 - テーブル上のデータを元にデータ分析](https://github.com/Karasu1t/storage-bq-etl-pipeline/blob/main/Phase2.md)
 
 ## 注意事項
 
