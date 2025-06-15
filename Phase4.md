@@ -73,7 +73,7 @@ def etl_handler(request):
     }, inplace=True)
     # BigQueryへロード
     bq_client = bigquery.Client()
-    table_id = '<Project ID>.iris_dataset.cleaned_iris_table'
+    table_id = '[Project ID].iris_dataset.cleaned_iris_table'
     job = bq_client.load_table_from_dataframe(df, table_id)
     job.result()
 
@@ -96,7 +96,7 @@ terraform apply --auto-approve
 
 <pre><code>
 ACCESS_TOKEN=$(gcloud auth print-identity-token)
-curl -H "Authorization: Bearer $ACCESS_TOKEN" https://asia-northeast1-<Project ID>.cloudfunctions.net/dev-karasuit-etl-function
+curl -H "Authorization: Bearer $ACCESS_TOKEN" https://asia-northeast1-[Project ID].cloudfunctions.net/dev-karasuit-etl-function
 </code></pre>
 
 iris_dataset 配下に cleaned_iris_table が存在することを確認し、

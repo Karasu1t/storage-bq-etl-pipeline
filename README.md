@@ -13,7 +13,7 @@ BigQuery 上に取り込み分析できる様にする。
 
 ## アーキテクチャ図
 
-![アーキテクチャ図](picture/XXXX)
+![アーキテクチャ図](picture/arch.png)
 
 ## 前提条件
 
@@ -43,7 +43,7 @@ BigQuery 上に取り込み分析できる様にする。
 [Phase 1 - BigQuery の Dataset 上でテーブルを作成する](https://github.com/Karasu1t/storage-bq-etl-pipeline/blob/main/Phase1.md)  
 [Phase 2 - テーブル上のデータを元にモデル作成](https://github.com/Karasu1t/storage-bq-etl-pipeline/blob/main/Phase2.md)  
 [Phase 3 - Null データを含むテーブルを SQL にて加工したデータマートを作成しモデル作成](https://github.com/Karasu1t/storage-bq-etl-pipeline/blob/main/Phase3.md)  
-[Phase 4 - Null データを含むデータを ETL 処理後にテーブルを作成しモデル作成](https://github.com/Karasu1t/storage-bq-etl-pipeline/blob/main/Phase4.md)  
+[Phase 4 - Null データを含むデータを ETL 処理後にテーブルを作成しモデル作成](https://github.com/Karasu1t/storage-bq-etl-pipeline/blob/main/Phase4.md)
 
 ## 注意事項
 
