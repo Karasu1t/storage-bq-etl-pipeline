@@ -9,3 +9,7 @@ variable "environment" {
 variable "project" {
   type = string
 }
+
+variable "etl_sa" {
+  type = string
+}
