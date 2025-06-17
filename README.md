@@ -8,7 +8,7 @@ BigQuery 上に取り込み分析できる様にする。
 ## 目的
 
 - BigQuery の操作を出来るようにする
-- データレイク(BigQuery) → DWH(BigQuery) → データマートの一連の構成を GoogleCloud 環境上で構築できるようになる
+- データレイク(Cloud Storage) → DWH(BigQuery) → データマートの一連の構成を GoogleCloud 環境上で構築できるようになる
 - ETL を GoogleCloud 上で実施する場合の方法を手を動かして身に着ける
 
 ## アーキテクチャ図
